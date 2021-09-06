@@ -1,0 +1,11 @@
+.footer {
+    color: $footer-color;
+}
+
+.footer__list {
+    list-style: none;
+}
+
+.footer__item + .footer__item {
+    margin-top: 5px;
+}

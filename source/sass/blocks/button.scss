@@ -1,0 +1,25 @@
+.button {
+    padding: 8px 40px;
+    font-size: 18px;
+    line-height: 1;
+    text-transform: uppercase;
+    color: $primary-text-color;
+    background-color: $button-primary-color;
+    border-radius: 30px;
+}
+
+.button--secondary {
+    padding: 9px 12px;
+    min-width: 116px;
+    font-size: 14px;
+    background-color: $button-secondary-color;
+}
+
+.button--large-text {
+    padding: 14px 20px;
+}
+
+.button--small-text {
+    padding: 8px 40px;
+    font-size: 14px;
+}

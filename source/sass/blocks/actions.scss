@@ -1,0 +1,60 @@
+.actions {
+    margin-bottom: 20px;
+}
+
+.actions__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px 30px 25px;
+    border-radius: 32px;
+
+    @include media-breakpoint-up(xl) {
+        border-radius: 15px;
+    }
+}
+
+.actions__item--blank {
+    background-color: $blank-bg;
+}
+
+.actions__item--code {
+    background-color: $code-bg;
+    margin: 25px 0 0 0;
+}
+
+.actions__item--candy {
+    margin: 25px 0 0 0;
+    padding: 180px 0 0;
+    background-color: $candy-bg;
+    background-image: url(../../img/candy.png);
+    background-repeat: no-repeat;
+    background-size: 100% 167px;
+
+    @include media-breakpoint-up(md) {
+        margin: 0;
+        padding: 40px 30px 50px 30%;
+    }
+}
+
+.actions__heading {
+    --max-width: 220px;
+    width: Min(100%, var(--max-width));
+    font-size: 18px;
+    line-height: 1.4;
+    font-weight: bold;
+    text-align: center;
+
+    @include media-breakpoint-up(xl) {
+        margin: 0;
+        text-align: left;
+    }
+}
+
+.actions__heading--candy {
+    text-transform: uppercase;
+}
+
+.actions__suggest {
+    color: $primary-text-color;
+}

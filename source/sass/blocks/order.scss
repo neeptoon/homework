@@ -1,0 +1,17 @@
+.order {
+    padding-top: 65px;
+}
+
+.order__greet {
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    color: $order-text-color;
+}
+
+.order__info {
+    color: $primary-text-color;
+    font-size: 10px;
+    text-align: left;
+}
