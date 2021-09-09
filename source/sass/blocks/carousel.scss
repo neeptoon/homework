@@ -3,11 +3,20 @@
     padding: 85px 15px 10px;
     background-image: url(../../img/bg-m.jpg);
     background-repeat: no-repeat;
+    background-position: 50% 50%;
     background-size: cover;
+
+    @include media-breakpoint-up(md) {
+        background-image: url(../../img/bg-dt.jpg);
     }
+}
 
 .carousel-indicators {
     bottom: -50px;
+
+    @include media-breakpoint-up(md) {
+        bottom: 20px;
+    }
 
     [data-bs-target] {
         width: 8px;
