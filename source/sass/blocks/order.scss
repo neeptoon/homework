@@ -1,5 +1,14 @@
 .order {
     padding-top: 65px;
+    margin-bottom: 30px;
+
+    @include media-breakpoint-up(xl) {
+        padding-top: 50px;
+        margin-bottom: 55px;
+
+    }
+
+
 }
 
 .order__greet {
@@ -8,10 +17,18 @@
     text-transform: uppercase;
     text-align: center;
     color: $order-text-color;
+
+    @include media-breakpoint-up(md) {
+        font-size: 20px;
+    }
 }
 
 .order__info {
     color: $primary-text-color;
     font-size: 10px;
     text-align: left;
+
+    @include media-breakpoint-up(md) {
+        font-size: 16px;
+    }
 }

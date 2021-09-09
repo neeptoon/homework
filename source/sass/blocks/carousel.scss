@@ -7,7 +7,33 @@
     background-size: cover;
 
     @include media-breakpoint-up(md) {
+        min-height: 540px;
+        padding: 100px 110px 105px;
         background-image: url(../../img/bg-dt.jpg);
+    }
+}
+
+.carousel__heading {
+    margin-bottom: 15px;
+    max-width: 450px;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: left;
+
+    @include media-breakpoint-up(md) {
+        max-width: 680px;
+        margin-bottom: 35px;
+        font-size: 48px;
+        line-height: 1.2;
+    }
+}
+
+.carousel__text {
+    margin-bottom: 20px;
+
+    @include media-breakpoint-up(md) {
+        font-size: 24px;
+        margin-bottom: 40px;
     }
 }
 
