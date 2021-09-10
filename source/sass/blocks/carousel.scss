@@ -1,7 +1,7 @@
 .carousel-item {
     min-height: 400px;
     padding: 85px 15px 10px;
-    background-image: url(../../img/bg-m.jpg);
+    background-image: url(../img/bg-m.jpg);
     background-repeat: no-repeat;
     background-position: 50% 50%;
     background-size: cover;
@@ -9,7 +9,7 @@
     @include media-breakpoint-up(md) {
         min-height: 540px;
         padding: 100px 110px 105px;
-        background-image: url(../../img/bg-dt.jpg);
+        background-image: url(../img/bg-dt.jpg);
     }
 }
 
