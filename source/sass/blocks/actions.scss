@@ -1,9 +1,13 @@
 .actions {
-    margin-bottom: 20px;
+    margin: 0 auto 20px;
+    width: Min(100%, 1300px);
 
-    @include media-breakpoint-up(xl) {
+    @include media-breakpoint-down(md) {
+        max-width: 500px;
+    }
+
+    @include media-breakpoint-up(md) {
         margin: 0 auto 55px;
-        width: Min(100%, 1300px);
     }
 }
 
