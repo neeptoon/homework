@@ -1,5 +1,7 @@
 .header {
     padding: 25px 15px 20px;
+    margin: 0 auto;
+    max-width: $max-width;
     color: $primary-text-color;
     background-color: $header-bg;
 }

@@ -1,7 +1,7 @@
 .blog {
     color: $white;
     margin: 0 auto 45px;
-    width: Min(100%, 1300px);
+    width: Min(100%, $max-width);
 }
 
 .blog__heading {

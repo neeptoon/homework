@@ -1,6 +1,6 @@
 .actions {
     margin: 0 auto 20px;
-    width: Min(100%, 1300px);
+    width: Min(100%, $max-width);
 
     @include media-breakpoint-down(md) {
         max-width: 500px;
