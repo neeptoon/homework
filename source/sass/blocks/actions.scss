@@ -16,7 +16,8 @@
     flex-direction: column;
     align-items: center;
     padding: 25px 30px;
-    border-radius: 32px;
+    border-radius: 20px;
+
 
     @include media-breakpoint-up(xl) {
         padding: 45px 30px;
@@ -50,6 +51,7 @@
     background-image: url(../img/candy-mob.png);
     background-repeat: no-repeat;
     background-size: 100% 167px;
+    background-position: top -3px center;
 
     @include media-breakpoint-up(md) {
         margin: 0;

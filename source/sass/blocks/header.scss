@@ -1,19 +1,24 @@
 .header {
-    padding: 25px 15px 20px;
+    padding: 20px 15px 15px;
     margin: 0 auto;
     max-width: $max-width;
     color: $primary-text-color;
     background-color: $header-bg;
+
+    @include media-breakpoint-up(md) {
+        padding: 15px;
+    }
 }
 
 .header__logo {
     font-size: 16px;
     font-weight: bold;
+
+    @include media-breakpoint-up(md) {
+        font-size: 24px;
+    }
 }
 
-@include media-breakpoint-up(md) {
-    font-size: 24px;
-}
 
 .header__logo--color {
     color: #F4D852;
